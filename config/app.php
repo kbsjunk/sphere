@@ -166,11 +166,14 @@ return [
         /*
          * Package Service Providers...
          */
+         Vinkla\Hashids\HashidsServiceProvider::class,
+
          Inspheric\Notify\Providers\NotifyServiceProvider::class,
          Inspheric\Users\Providers\UsersServiceProvider::class,
          Inspheric\Sites\Providers\SitesServiceProvider::class,
          Inspheric\Groups\Providers\GroupsServiceProvider::class,
          Inspheric\Calendars\Providers\CalendarsServiceProvider::class,
+         Inspheric\Templates\Providers\TemplatesServiceProvider::class,
 
         /*
          * Application Service Providers...
