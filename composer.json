@@ -7,6 +7,7 @@
     "require": {
         "php": ">=5.6.4",
         "laravel/framework": "5.3.*",
+        "inspheric/support": "dev-master",
         "inspheric/notify": "dev-master",
         "inspheric/sites": "dev-master",
         "inspheric/users": "dev-master",

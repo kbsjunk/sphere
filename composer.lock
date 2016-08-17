@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "aba7f3efd3d295f1163f633335f230b4",
-    "content-hash": "e0cf35fb3815c1e0525beb7a67458089",
+    "hash": "df53f0a68b021ad10cc26c5409f1246d",
+    "content-hash": "ce17b89b98ea7d99cea92f1caa9623cc",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -166,12 +166,9 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "../calendars",
-                "reference": "0223701f2aa5813709692e6b5729c09629a8b964",
+                "url": "../modules/calendars",
+                "reference": "59ac5f563d0ccad3f29dfc93d34f32bc5149485d",
                 "shasum": null
-            },
-            "require": {
-                "inspheric/support": "dev-master"
             },
             "type": "library",
             "autoload": {
@@ -185,12 +182,9 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "../groups",
-                "reference": "ec0b42291e9b4442a4ae4a106cb96761e742f9de",
+                "url": "../modules/groups",
+                "reference": "d6a2c88a37f080f6f1d43e928967cf7aa65c1b84",
                 "shasum": null
-            },
-            "require": {
-                "inspheric/support": "dev-master"
             },
             "type": "library",
             "autoload": {
@@ -204,12 +198,9 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "../notify",
-                "reference": "777dde5be47d100757873669dde27870d580be84",
+                "url": "../modules/notify",
+                "reference": "e52ca8abb046048a6122b19c412b08cac2e18bb0",
                 "shasum": null
-            },
-            "require": {
-                "inspheric/support": "dev-master"
             },
             "type": "library",
             "autoload": {
@@ -223,12 +214,9 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "../sites",
-                "reference": "72e4cef55cb790f1f23e37c77a768dcbe6b1cb9b",
+                "url": "../modules/sites",
+                "reference": "74e064f129b27d2c1178172b49540b073c30088c",
                 "shasum": null
-            },
-            "require": {
-                "inspheric/support": "dev-master"
             },
             "type": "library",
             "autoload": {
@@ -242,8 +230,8 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "../support",
-                "reference": "cf38c53545c9ce4be891773146239e3158629dde",
+                "url": "../modules/support",
+                "reference": "59638dcb6f81320640abab3fddc037576765dd75",
                 "shasum": null
             },
             "type": "library",
@@ -258,13 +246,9 @@
             "version": "dev-master",
             "dist": {
                 "type": "path",
-                "url": "../users",
-                "reference": "767c9a8aab18c48c430dd1db813fc320619f2be0",
+                "url": "../modules/users",
+                "reference": "eff34ef2a2565c07c0141c544154f1a4b6159648",
                 "shasum": null
-            },
-            "require": {
-                "inspheric/notify": "dev-master",
-                "inspheric/support": "dev-master"
             },
             "type": "library",
             "autoload": {
@@ -424,12 +408,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "a9947a115ff2b8b29b3c01a7e6e182afcbd0a97f"
+                "reference": "5cce34bcec0859c4aae232c9fde15d3a44b16dfe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/a9947a115ff2b8b29b3c01a7e6e182afcbd0a97f",
-                "reference": "a9947a115ff2b8b29b3c01a7e6e182afcbd0a97f",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/5cce34bcec0859c4aae232c9fde15d3a44b16dfe",
+                "reference": "5cce34bcec0859c4aae232c9fde15d3a44b16dfe",
                 "shasum": ""
             },
             "require": {
@@ -534,7 +518,7 @@
             "authors": [
                 {
                     "name": "Taylor Otwell",
-                    "email": "taylorotwell@gmail.com"
+                    "email": "taylor@laravel.com"
                 }
             ],
             "description": "The Laravel Framework.",
@@ -543,7 +527,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2016-08-12 19:17:33"
+            "time": "2016-08-13 16:24:21"
         },
         {
             "name": "league/flysystem",
@@ -3538,6 +3522,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "inspheric/support": 20,
         "inspheric/notify": 20,
         "inspheric/sites": 20,
         "inspheric/users": 20,
