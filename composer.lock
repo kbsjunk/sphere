@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ef6bca458efb35b2be52a3df0b1c9e02",
-    "content-hash": "881cbb8b6976f96c77ce99ebc65cfe05",
+    "hash": "86672e5a273920fcd7f2eb6b90690f66",
+    "content-hash": "00257c54c176973202a8add5597c198b",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -349,7 +349,7 @@
             "dist": {
                 "type": "path",
                 "url": "../modules/calendars",
-                "reference": "8328805c5488c56fa1a3421e5a6aa36520added2",
+                "reference": "f36f37e4cf5137a6645d64ef9f797fbdc9c80a2d",
                 "shasum": null
             },
             "require": {
@@ -364,12 +364,28 @@
             }
         },
         {
+            "name": "inspheric/fees",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../modules/fees",
+                "reference": "58957df45fedd6d69e8a5872d010431dabe4c1a7",
+                "shasum": null
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Inspheric\\Fees\\": "src/"
+                }
+            }
+        },
+        {
             "name": "inspheric/groups",
             "version": "dev-master",
             "dist": {
                 "type": "path",
                 "url": "../modules/groups",
-                "reference": "199693198433f990e59580ba550aabc60490f2f1",
+                "reference": "f1adb65d350e66bc376cdcc9cdabcf7798e07e5d",
                 "shasum": null
             },
             "type": "library",
@@ -417,7 +433,7 @@
             "dist": {
                 "type": "path",
                 "url": "../modules/support",
-                "reference": "29f29e7076e1c7db9b5d77a0f0c37f1c03eb1f7b",
+                "reference": "254be0480818e4ea14a89d2643b1384ae26a5297",
                 "shasum": null
             },
             "require": {
@@ -436,7 +452,7 @@
             "dist": {
                 "type": "path",
                 "url": "../modules/templates",
-                "reference": "4cb99cfac985298b3d2d0e34c479c92c01ce5320",
+                "reference": "2d0f34483cc5f4a3d349bae7532d729c06e433bd",
                 "shasum": null
             },
             "type": "library",
@@ -4060,7 +4076,8 @@
         "inspheric/users": 20,
         "inspheric/groups": 20,
         "inspheric/calendars": 20,
-        "inspheric/templates": 20
+        "inspheric/templates": 20,
+        "inspheric/fees": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

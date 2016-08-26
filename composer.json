@@ -13,7 +13,8 @@
         "inspheric/users": "dev-master",
         "inspheric/groups": "dev-master",
         "inspheric/calendars": "dev-master",
-        "inspheric/templates": "dev-master"
+        "inspheric/templates": "dev-master",
+        "inspheric/fees": "dev-master"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

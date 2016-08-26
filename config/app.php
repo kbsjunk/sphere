@@ -174,6 +174,7 @@ return [
          Inspheric\Groups\Providers\GroupsServiceProvider::class,
          Inspheric\Calendars\Providers\CalendarsServiceProvider::class,
          Inspheric\Templates\Providers\TemplatesServiceProvider::class,
+         Inspheric\Fees\Providers\FeesServiceProvider::class,
 
         /*
          * Application Service Providers...

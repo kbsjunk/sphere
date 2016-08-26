@@ -40,13 +40,19 @@ return [
         'main' => [
             'salt'     => env('APP_KEY'),
             'length'   => 8,
-            'alphabet' => 'ACDEFGHIJKLMNOPQRSTUVXYZacdefghijklmnopqrstuvxyz1234567890',
+            'alphabet' => 'pfaKMXkRqTdeZjzJg26Y4i0mrcUPInuh5ovlF3AQ81SsHVDNCEx9t7LyOG',
         ],
 
         'long' => [
             'salt'     => env('APP_KEY'),
             'length'   => 11,
-            'alphabet' => 'ACDEFGHIJKLMNOPQRSTUVXYZacdefghijklmnopqrstuvxyz1234567890',
+            'alphabet' => 'LJu65iY7XyPn4fZI1hjSKqaApzmE9ON3kHVs0tg8RceldvrUGoTMxQ2DCF',
+        ],
+
+        'deep' => [
+            'salt'     => env('APP_KEY'),
+            'length'   => 32,
+            'alphabet' => 'UgMxSY7mHTCFVRzfhQjonIpdvlAKiDac8q6LPZJeu2ON40Xk9yt1E3r5Gs',
         ],
 
     ],
