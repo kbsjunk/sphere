@@ -2,9 +2,6 @@
 
 namespace Sphere\Http\Controllers;
 
-use Sphere\Http\Requests;
-use Illuminate\Http\Request;
-
 class HomeController extends Controller
 {
     /**
